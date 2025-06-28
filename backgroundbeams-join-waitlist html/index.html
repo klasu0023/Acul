@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACULESS Studios - Join the Waitlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="beamsCanvas" class="beams-canvas"></canvas>
+        
+        <div class="overlay"></div>
+        
+        <div class="content">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Join the waitlist</h1>
+                    <p class="hero-subtitle">Welcome to ACULESS Studios where vision becomes reality. over 300,000+ users !</p>
+                    <p class="hero-counter">You're number 200+</p>
+                    
+                    <div class="waitlist-form">
+                        <form id="waitlistForm" class="form">
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="hi@example.com" 
+                                required 
+                                class="email-input"
+                            />
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                Join Waitlist
+                            </button>
+                        </form>
+                        
+                        <div id="message" class="message hidden"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="testimonials-section">
+                <div class="testimonials-content">
+                    <div class="testimonials-header">
+                        <h2 class="testimonials-title">Trusted by developers worldwide</h2>
+                        <p class="testimonials-description">Join thousands of developers who are already building the future with our Studios.</p>
+                    </div>
+                    
+                    <div class="testimonials-container">
+                        <div class="testimonials-marquee">
+                            <div class="testimonials-track" id="testimonialsTrack">
+                                <!-- Testimonials will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        
+                        <div class="gradient-left"></div>
+                        <div class="gradient-right"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
